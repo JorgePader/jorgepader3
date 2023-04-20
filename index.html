@@ -14,7 +14,7 @@
     <header class="main-header">
         <div class="container container--flex">
             <div class="main-header__container">
-                <h1 class="main-header__title">Glasses</h1>
+                <h1 class="main-header__title" style="font-family: Verdana;">Glasses</h1>
                 <span class="icon-menu fas fa-bars" id="btn-menu"></span>
                 <nav class="main-nav" id="main-nav">
                     <ul class="menu">
@@ -81,12 +81,58 @@
     </div>
 
     <main class="main">
-        <h2 class="main-title">Nuestros Modelos</h2>
-        <section class="container-products">
-            <div class="product">
+        <div class="container">
+            <h2 class="main-title">Nuestros Modelos</h2>
+            <section class="container-products">
+                <!-- .product*4>img.product__img+.product__description>h3.product__title+spam.product__price -->
+                <div class="product">
+                    <img src="img/solo-glasses.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">xxxx</h3>
+                        <spam class="product__price">$1000.00</spam>
+                    </div>
+                    <i class="product__icon fa-solid fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                    <img src="img/solo2-glasses.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">xxxxx</h3>
+                        <spam class="product__price">$1500.00</spam>
+                    </div>
+                    <i class="product__icon fa-solid fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                    <img src="img/solo3-glasses.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">xxxxx</h3>
+                        <spam class="product__price">$2000.00</spam>
+                    </div>
+                    <i class="product__icon fa-solid fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                    <img src="img/solo4-glasses.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">xxxxx</h3>
+                        <spam class="product__price">$2500.00</spam>
+                    </div>
+                    <i class="product__icon fa-solid fa-cart-plus"></i>
+                </div>
+            </section>
+        </div>
 
+        <div class="container-editor">
+            <div class="editor__item">
+                <img src="img/hombre3-glasses.jpg" alt="" class="editor__img">
             </div>
-        </section>
+            <div class="editor__item">
+                <img src="img/mujer3-glasses.jpg" alt="" class="editor__img">
+            </div>
+
+        </div>
+
+
+
+
     </main>
 
     <script src="js/slider.js"></script>
